@@ -25,7 +25,7 @@
  * @main
  */
 
-(function(root, factory) {
+(function (root, factory) {
   if (typeof define === 'function' && define.amd)
     define('p5.dom', ['p5'], function(p5) {
       factory(p5);
